@@ -1,0 +1,12 @@
+<view class="container">
+  <text style="color:gray;font-size:medium;margin-top:15px;margin-bottom:2px">输入名称：</text>
+  <input class="input" type="text" value="{{inputText}}" bindinput="bindInput"/>
+  <text style="color:gray;font-size:medium;margin-top:15px;margin-bottom:2px">输入密码：</text>
+  <input class="input" type="password" value="{{inputText2}}" bindinput="bindInput2"/>
+  <checkbox-group class="checkbox" bindchange="checkboxChange">
+  <label style="color:gray;font-size:medium;margin-top:10px;margin-bottom:2px" class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+  </label>
+  </checkbox-group>
+  <button type="primary" class="button" bindtap="Send">开始配置</button>
+</view>
