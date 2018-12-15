@@ -12,9 +12,12 @@ page {
   border: 1px solid lightgray;
   border-radius: 6px;
 }
-.checkbox {
+.checkboxg {
   padding: 30rpx;
-  align-items: left;
+}
+.checkbox {
+  position: absolute;
+  left: 10rpx;
 }
 .button {
   position: fixed;
