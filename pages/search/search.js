@@ -19,7 +19,7 @@ Page({
                 }
               })
               wx.startBluetoothDevicesDiscovery({
-                services: ['FFF0'],
+                services: ['A035'],
                 allowDuplicatesKey: false,
                 success: function (res) {
                   console.log(res)
@@ -77,7 +77,7 @@ Page({
       }
     })
     wx.showLoading({
-      title: '连接蓝牙设备中...',
+      title: '连接设备中...',
     })
     wx.createBLEConnection({
       deviceId: e.currentTarget.id,

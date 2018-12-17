@@ -5,6 +5,10 @@ page {
   padding: 30rpx;
   align-items: left;
 }
+.text {
+  margin-top:3px;
+  left: 10rpx;
+}
 .input {
   margin-top:3px;
   width: 100%;

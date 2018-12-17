@@ -1,15 +1,7 @@
 {
   "pages": [
     "pages/search/search",
-    "pages/main/main",
-    "pages/device/device",
-    "pages/open/open",
-    "pages/set/set",
-    "pages/password/password",
-    "pages/contact/contact",
-    "pages/method/method",
-    "pages/name/name",
-    "pages/precautions/precautions"
+    "pages/open/open"
   ],
   "window": {
     "backgroundTextStyle": "light",
