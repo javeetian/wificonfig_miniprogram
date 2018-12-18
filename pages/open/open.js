@@ -44,7 +44,13 @@ Page({
   },
   Send: function () {
     var that = this
-    if (that.data.connected) {
+    if(that.data.inputText.length == 0)
+      wx.showToast({
+        title: '名称不能为空',
+        icon: 'none',
+        duration: 1000
+      })
+      else if (that.data.connected) {
         var i = 0
         var sum = 0
       var param_len = that.data.inputText.length + that.data.inputText2.length + 2
